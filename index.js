@@ -43,9 +43,9 @@ function createMainWindow() {
 		width: lastWindowState.width,
 		height: lastWindowState.height,
 		icon: process.platform === 'linux' && path.join(__dirname, 'static/Icon.png'),
-		minWidth: 340,
+		minWidth: 550,
 		maxWidth: maxWidthValue,
-		minHeight: 260,
+		minHeight: 800,
 		titleBarStyle: 'hidden-inset',
 		autoHideMenuBar: true,
 		darkTheme: isDarkMode, // GTK+3
